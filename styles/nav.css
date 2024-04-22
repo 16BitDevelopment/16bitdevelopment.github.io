@@ -1,0 +1,40 @@
+nav {
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a img {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav a img {
+    height: 35px;
+}
+
+nav .pages {
+    height: 50px;
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-radius: 25px;
+}
+
+nav .pages a {
+    color: var(--colour4);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    transition: color 0.15s;
+}
+
+nav .pages a:hover {
+    color: var(--colour3);
+}
