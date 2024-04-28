@@ -1,6 +1,5 @@
 <script>
   const el = document.getElementById("div");
-  div.style.display = "none";
   function btn() {
     div.style.display = "block";
   }
@@ -11,9 +10,9 @@
 
 <p>You are the human equivalent of a participation trophy.</p>
 
-<button>CLICK ME!</button>
+<button onclick="btn()">CLICK ME!</button>
 
-<div id="div">
+<div id="div" style="display: none;">
   <h1>
     You Fool.
   </h1>
